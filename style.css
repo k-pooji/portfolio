@@ -276,17 +276,16 @@ footer {
   }
 }
 
-/* Contact Section */
 #contact{
-    padding:60px 20px;
-    background:#f5f7fa;
+    padding:50px 20px;
+    background:#faaeff;
     text-align:center;
 }
 
 /* Heading */
 #contact h2{
     font-size:32px;
-    margin-bottom:30px;
+    margin-bottom:10px;
     color:#333;
 }
 
@@ -294,7 +293,7 @@ footer {
 #contact form{
     max-width:500px;
     margin:auto;
-    background:white;
+    background:rgb(248, 130, 240);
     padding:30px;
     border-radius:10px;
     box-shadow:0 4px 10px rgba(0,0,0,0.1);
@@ -315,7 +314,7 @@ footer {
     width:100%;
     padding:10px;
     margin-top:5px;
-    border:1px solid #ccc;
+    border:1px solid #e00bb2;
     border-radius:6px;
     font-size:14px;
     outline:none;
@@ -338,9 +337,9 @@ footer {
 #contact button{
     width:100%;
     padding:12px;
-    background:#007BFF;
+    background: #811b9a;
     border:none;
-    color:white;
+    color:rgb(246, 139, 248);
     font-size:16px;
     border-radius:6px;
     cursor:pointer;
@@ -350,5 +349,5 @@ footer {
 
 /* Button hover */
 #contact button:hover{
-    background:#0056b3;
+    background:#a400b3;
 }
