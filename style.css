@@ -212,6 +212,43 @@ section h2 {
   transform: scale(1.05);
 }
 
+/* Project Links Container */
+.project-links{
+  margin-top: 10px;
+}
+
+/* Common Button Style */
+.project-links a{
+  text-decoration: none;
+  padding: 8px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+/* Live Project Button */
+.live-btn{
+  background-color: #bf00ff;
+  color: white;
+}
+
+.live-btn:hover{
+  background-color: #df8dfb;
+}
+
+/* GitHub Button */
+.github-btn{
+  background-color: #bf00ff;
+  color: white;
+}
+
+.github-btn:hover{
+  background-color: #df8dfb;
+}
+
 /* --- Contact --- */
 form {
   max-width: 600px;
@@ -351,3 +388,4 @@ footer {
 #contact button:hover{
     background:#a400b3;
 }
+
